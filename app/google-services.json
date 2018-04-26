@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "756779459032",
+    "firebase_url": "https://ghadi-e47f5.firebaseio.com",
+    "project_id": "ghadi-e47f5",
+    "storage_bucket": "ghadi-e47f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756779459032:android:3a0beddc41e19430",
+        "android_client_info": {
+          "package_name": "me.aitbaali.aiacgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756779459032-vuvr758lhj4pcj4o68q019h0erose0di.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.aitbaali.aiacgo",
+            "certificate_hash": "8af32012f2881227a466ac36ea750dcbb0bece4a"
+          }
+        },
+        {
+          "client_id": "756779459032-nvvbm2a36c9g9b1c1a7v250oallk8jci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtUbeYOv44EijBkgAF0vwCDy_8WDV9yrU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756779459032-nvvbm2a36c9g9b1c1a7v250oallk8jci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

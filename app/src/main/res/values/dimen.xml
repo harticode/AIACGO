@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="cardSize">121dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="logo_dime">82dp</dimen>
+    <dimen name="phone">36dp</dimen>
+    <dimen name="logomarginbotton">92dp</dimen>
+</resources>

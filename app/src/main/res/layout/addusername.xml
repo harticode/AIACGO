@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/username_form"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/hold"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="32dp"
+                android:padding="2dp">
+
+                <ImageButton
+                    android:id="@+id/photoPickerButton"
+                    android:layout_width="64dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="12dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/user" />
+
+                <ProgressBar
+                    android:id="@+id/pb"
+                    android:layout_width="150dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="12dp"
+                    android:layout_height="wrap_content"
+                    style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="12dp"
+                    android:text="Enter Your Name - ادخل اسمك"
+                    android:textColor="#ffffff"
+                    />
+
+
+                <EditText
+                    android:id="@+id/usernametxt"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="52dp"
+                    android:layout_marginLeft="52dp"
+                    style="@style/FirebaseUI.TextInputLayout.NameField"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/setuser"
+                    android:layout_marginTop="32dp"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:padding="4dp"
+                    android:background="@drawable/arrow"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

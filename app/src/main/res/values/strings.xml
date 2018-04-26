@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AIAC GO</string>
+    <string name="sign_out">Sign Out</string>
+    <string-array name="options">
+        <item>3 Dh</item>
+        <item>4 Dh</item>
+        <item>5 Dh</item>
+        <item>6 Dh</item>
+        <item>7 Dh</item>
+        <item>8 Dh</item>
+        <item>9 Dh</item>
+        <item>10 Dh</item>
+        <item>To negotiate - للتفاوض</item>
+        <item>Free - مجانا </item>
+    </string-array>
+
+</resources>
